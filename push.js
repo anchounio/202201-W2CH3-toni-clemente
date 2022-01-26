@@ -6,7 +6,5 @@ export function myPush(array, element) {
     returnArray[array.length] = element;
     return returnArray;
 }
-
-const arrayPrueba = ["queso", "casa", "chozas", "jefe"];
-myPush(arrayPrueba, "esto");
-//console.log(myPush(arrayPrueba, "esto")); // para comprobar que funciona
+const testPush = ["queso", "casa", "chozas", "jefe"];
+myPush(testPush, "esto");
